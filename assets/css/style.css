@@ -818,10 +818,6 @@ body {
 
 .blog-card .card-title:is(:hover, :focus) { color: var(--majorelle-blue); }
 
-
-
-
-
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
@@ -912,9 +908,6 @@ body {
 .footer-bottom-link { transition: var(--transition-1); }
 
 .footer-bottom-link:is(:hover, :focus) { color: var(--mustard); }
-
-
-
 
 
 /*-----------------------------------*\
@@ -1346,7 +1339,7 @@ body {
    */
 
   .footer-top {
-    grid-template-columns: 1fr 0.5fr 0.5fr 0.9fr;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
     padding-block: 120px;
   }
 
