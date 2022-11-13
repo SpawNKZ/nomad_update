@@ -365,7 +365,16 @@ body {
 }
 
 .logo {
-  color: var(--raisin-black-1);
+  background: linear-gradient(to left,
+  violet,
+  indigo,
+  blue,
+  green,
+  yellow,
+  orange,
+  red);
+  -webkit-background-clip: text;
+  color: transparent;
   font-size: 3.6rem;
   font-weight: var(--fw-700);
 }
